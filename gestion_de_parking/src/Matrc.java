@@ -31,7 +31,7 @@ public class Matrc implements Infmat {
                 mat[j][k]='|';}
     }
 
-    public Point allocate(char type){        //allocating location
+    public Point allocate(char type){
         int m=1;
         Point locate=new Point();
         locate.x=-1;
@@ -51,7 +51,7 @@ public class Matrc implements Infmat {
     }
 
 
-    public boolean remove(Point locate)  //removing vehicle
+    public boolean remove(Point locate)
     {
         if(mat[locate.x][locate.y]==' '){
             return false;
@@ -71,4 +71,6 @@ public class Matrc implements Infmat {
         }
     }
 }
+
+
 

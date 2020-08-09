@@ -11,7 +11,7 @@ public class Main {
 
         Point locate=new Point();
         Matrc grid=new Matrc();
-        //  File f1=new File("matrix.txt");
+          File f1=new File("matrix.txt");
 
         Scanner scan=new Scanner(System.in);
 
@@ -23,6 +23,7 @@ public class Main {
         System.out.println("\n\tEkangwo Hernadez Ebolo\t\t\t\t\t\t\t\t\t\t\t\t\t");
         System.out.println("**************************************************************************************");
 
+        char k;
         System.out.print("\t\t\t\t\t\t\t");System.out.println("Appuyez sur ENTER pour continuer");
         String line=null;
         System.out.print("\t\t\t\t\t\t\t");
@@ -53,8 +54,8 @@ public class Main {
         catch(IOException e)
         {
             System.out.println("\033[H\033[2J\n\n\n\n\n\n\n\n\n\n\t\t\t\t\t\t\t\tBase de données non présente. Un nouveau fichier vide sera créé.");
-            File f1=new File("Matrix.txt");
-            //f1.createNewFile();
+            File f2=new File("Matrix.txt");
+            f2.createNewFile();
         }
 
 
@@ -102,7 +103,7 @@ public class Main {
                         }
                     }
 
-                    locate =grid.allocate(type);
+                    locate = grid.allocate(type);
                     if(locate.x!=-1){
                         System.out.print("Entrez le nom: ");
                         scan.nextLine();
