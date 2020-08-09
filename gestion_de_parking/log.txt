@@ -1,0 +1,26 @@
+Entrée:
+Nom: best
+Type de véhicule: Voiture
+Numéro du véhicule: GR 544 LM
+Numero de telephone: 657889547
+Emplacement du stationnement(Coordonnées): 1 ,1
+Date: 9/8/2020
+Heur: 11:58:44
+
+
+Exit:
+numéro du véhicule: best
+Date: 9/8/2020
+Heur: 12:9:34
+
+
+Entrée:
+Nom: best
+Type de véhicule: deux-roues(Moto)
+Numéro du véhicule: DF 578 TY
+Numero de telephone: 675233766
+Emplacement du stationnement(Coordonnées): 1 ,1
+Date: 9/8/2020
+Heur: 0:11:6
+
+
